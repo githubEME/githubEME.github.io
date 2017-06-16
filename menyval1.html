@@ -1,0 +1,111 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Lär dig BAKA</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+    <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Startsida</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Recept</a></li>
+                        <li><a href="menyval2.html">Om mig</a></li>
+                        <li><a href="menyval3.html">Scratch</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>Recept:</h1>
+    <ul>
+    <a href="https://www.recepten.se/recept/kladdkaka.html">Kladdkaka</a>
+    <a href="http://www.leila.se/leilas-chokladbollar/recept/bakverk/index1,23.htm?id=3655">Chokladbollar</a>
+    <img src="bilder/chokladbollar.png">
+    <li>Mina egna muffins:</li>
+    </ul>
+    <p>Du behöver:</p>
+    <ul>
+    <li>3 ägg</li>
+    <li>1dl socker</li>
+    <li>50g smör</li>
+    <li>1/2dl mjölk</li>
+    <li>1 och 1/2dl mjöl</li>
+    <li>1tsk vaniljsocker</li>
+    <li>1tsk bakpulver</li>
+    <li>(3msk kakao)</li>
+    </ul>
+    <img src="bilder/kladdkaka.png">
+    <p>gör såhär:</p>
+    <li>1.Ställ upp 12st formar på en plåt och sätt ungnen på 250 grader.</li>
+    <li>2.Blanda i äggen ock sockret till en lite fluffig smet.</li>
+    <li>3.Smällt smöret och blanda i det tillsammans med mjölken i samma smet.</li>
+    <li>4.sila ner mjölet och blanda i bakplvret och vaniljsockret och eventurllt kakao.</li>
+    <li>5.Blanda allt och häll ner i formarna till hälften. Om det finns mer smet över så kan du hälla upp i fler formar.</li>
+    <li>Efter 12 min är muffinsarna klara.</li>
+    <h2>cupcakes:</h2>
+    <p> 12st</p>
+    <li>3 ägg</li>
+    <li>2 och 1/2dl strösocker</li>
+    <li>1 tsk vaniljsocker</li>
+    <li>100g smör</li>
+    <li>1dl mjölk</li>
+    <li>3 och 1/2dl mjöl</li>
+    <li>2 tsk bakpulver</li>
+    <p> </p>
+    <h2>krämig frosting (med philadelphiaost):</h2>
+    <p> </p>
+    <li>60g rumsvarmt smör</li>
+    <li>5dl florsocker</li>
+    <li>1 tsk vaniljsocker</li>
+    <li>100g philadelphiaost</li>
+    <li>(några droppar karamellfärg)</li>
+    <p> </p>
+    <h2>gör såhär:</h2>
+    <img src="bilder/ladda ned (2).jpg" width="500px">
+    <p> </p>
+    <p>1.Sätt ungnen på 175 grader och ställ upp 12 cupcakesformar.</p>
+    <p>2.Vispa ägg, strösocker och vaniljsocker till en vit fluffig smet. tips:använd elvisp.</p>
+    <p>3.Smält smöret och häll i mjölken i äggsneten och blanda det med äggsmeten.</p>
+    <p>4.Blanda mjöl och bakpulver. Sedan häller du ner det försiktigt medans du blandar.</p>
+    <p>5.Häll upp smeten i formarna till 2/3 och stöll in i ugnen i ca 15 min.</p>
+    <p>Ta ut dom och låt dom svalna på ett galler.</p>
+    <p> </p>
+    <h2>krämig frosting</h2>
+    <p> </p>
+    <p>1.Rör smör, florsocker, citronsaft och philadelphiaost krämigt.</p>
+    <p>2.dela upp frostingen och färga den eller behåll den vit.</p>
+    <p>3.stoppa in frostingen i spritspåsar och spritsa den över dina cupcakes och deckorera med strössel.</p>
+    <p>4.Förvara dem i kylen tills det är dags att äta dem.</p>
+    </main>
+</body>
+</html>
